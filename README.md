@@ -37,7 +37,7 @@ Add animations/highlight for winning line and move history.
 
 Add simple lobby UI: create/join by id, list open games.
 
-Backend implementation steps (Node.js + Express + Socket.IO)
+##**Backend implementation steps (Node.js + Express + Socket.IO)
 
 ##Initialize project: npm init -y
 
