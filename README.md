@@ -2,9 +2,10 @@
  
  Choose the stack (recommendations
  
-*#Frontend: HTML/CSS/JavaScript (plain or React/Vue/Angular)
+*#Frontend:
+HTML/CSS/JavaScript (plain or React/Vue/Angular)
 Backend: Node.js + Express (or Python Flask/FastAPI)
-Realtime: Socket.IO (Node) or WebSockets (any)
+
 DB (optional): Redis (ephemeral), Postgres/MongoDB (persistent)
 
 Mobile / App
@@ -39,11 +40,7 @@ Add simple lobby UI: create/join by id, list open games.
 
 ##**Backend implementation steps (Node.js + Express + Socket.IO)
 
-##Initialize project: npm init -y
 
-##Install: npm i express socket.io uuid
-
-Simple in-memory store for dev (object keyed by game id). For production, persist to Redis or database.
 
 Implement validation functions: isValidMove(game, pos, player), applyMove(game, pos, player), checkWinner(board).
 
